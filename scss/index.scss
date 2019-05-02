@@ -1,2 +1,31 @@
 @import 'variables.scss';
 
+.header-img{
+  background-image: url(../img/header.jpg);
+  height:100vh;
+  background-size: cover;
+  background-position: center;
+  
+
+  #logo{
+    font-size: 34px;
+    font-family: $font-raleway;
+    color:white;
+  }
+
+  nav{
+    font-family: $font-montserrat;
+    font-size: 14px;
+   
+    ul{
+
+      li{
+        a{
+           color: #ffffff;
+        }
+      }
+    }
+  }
+
+}
+
