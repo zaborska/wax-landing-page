@@ -1,0 +1,23 @@
+body {
+  font-family: $font-montserrat;
+  font-size: 16px;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: $font-raleway;
+}
+
+.btn.btn-primary{
+  background-color: $btn-primary;
+  border:none;
+  border-bottom: 3px solid #736357;
+  font-family: $font-raleway;
+  font-weight: bold;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 15px 35px;
+
+  &:hover {
+    background-color: darken($btn-primary, 20%);
+  }
+}
