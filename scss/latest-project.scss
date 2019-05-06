@@ -1,0 +1,31 @@
+.our-latest-project{
+  padding-top: 80px;
+  
+  h3, p{
+    text-align: center;
+  }
+
+  li{
+    border: 1px solid $base-font-color;
+    padding: 5px 5px;
+  }
+  a{
+    color:#8c8c8c;
+   
+
+    //  &:hover {
+    //    background :$btn-primary;
+    //    text-decoration: none;
+    //    color:$latest-project-font-color;
+    //  }
+  }
+  // a:hover{
+  //   background :$btn-primary;
+  //   text-decoration: none;
+  //   color:$latest-project-font-color;
+  // }
+  li a:hover{
+  background :$btn-primary;
+  text-decoration: none;
+  }
+}

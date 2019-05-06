@@ -1,0 +1,23 @@
+.wax-ideas{
+  background: #fbfaf8;
+  text-align: center;
+  padding-top:50px;
+  
+  h2{
+  color:$header-color;
+}
+p{
+  color:$base-font-color;
+}
+}
+
+.multipurpose{
+  height: 120px;
+  background: linear-gradient( to right, #221c1a, #382820, #493125);
+  text-align: center;
+ padding-top:30px;
+
+ h3::nth-child(1) {
+   color: #c7b299;
+ }
+}

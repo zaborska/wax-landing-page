@@ -1,0 +1,38 @@
+.services{
+  padding: 80px 0 80px 0;
+  .service {
+    text-align: center;
+    cursor: pointer;
+
+    &:hover{
+      h3{
+        color:$header-hover-color;
+      }
+      .service-border{
+        border-color: $header-hover-color;
+      }
+    }
+
+    img{
+      margin-bottom: 20px;
+      height: 40px;
+    }
+
+    h3{
+      font-size: 22px;
+      font-family: $font-raleway;
+    }
+
+
+    p {
+      font-family: $font-montserrat;
+      font-size: 14px;
+    }
+    .service-border {
+      border-bottom: 3px solid $border-service-color;
+      width: 70px;
+      margin: auto;
+    }
+    
+  }
+}

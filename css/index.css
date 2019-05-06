@@ -2,10 +2,12 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
+  color: #8c8c8c;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway", sans-serif;
+  color: #555555;
 }
 
 .btn.btn-primary {
@@ -52,12 +54,80 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   margin-top: 150px;
   top: 30%;
+}
+.header-img .slider-wrapper h1, .header-img .slider-wrapper h2, .header-img .slider-wrapper p {
   color: #ffffff;
 }
 
-.inform {
-  background: #ffffff;
-  height: 376px;
+.services {
+  padding: 80px 0 80px 0;
+}
+.services .service {
+  text-align: center;
+  cursor: pointer;
+}
+.services .service:hover h3 {
+  color: #c7b299;
+}
+.services .service:hover .service-border {
+  border-color: #c7b299;
+}
+.services .service img {
+  margin-bottom: 20px;
+  height: 40px;
+}
+.services .service h3 {
+  font-size: 22px;
+  font-family: "Raleway", sans-serif;
+}
+.services .service p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+}
+.services .service .service-border {
+  border-bottom: 3px solid #f1eee9;
+  width: 70px;
+  margin: auto;
+}
+
+.wax-ideas {
+  background: #fbfaf8;
+  text-align: center;
+  padding-top: 50px;
+}
+.wax-ideas h2 {
+  color: #555555;
+}
+.wax-ideas p {
+  color: #8c8c8c;
+}
+
+.multipurpose {
+  height: 120px;
+  background: linear-gradient(to right, #221c1a, #382820, #493125);
+  text-align: center;
+  padding-top: 30px;
+}
+.multipurpose h3::nth-child(1) {
+  color: #c7b299;
+}
+
+.our-latest-project {
+  padding-top: 80px;
+}
+.our-latest-project h3, .our-latest-project p {
+  text-align: center;
+}
+.our-latest-project li {
+  border: 1px solid #8c8c8c;
+  padding: 5px 5px;
+}
+.our-latest-project a {
+  color: #8c8c8c;
+}
+.our-latest-project li a:hover {
+  background: #998675;
+  text-decoration: none;
 }
 
 /*# sourceMappingURL=index.css.map */
