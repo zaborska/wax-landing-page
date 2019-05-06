@@ -3,24 +3,33 @@
   text-align: center;
   padding-top:80px;
   
-  h2{
-  color:$header-color;
-}
-p{
-  color:$base-font-color;
- }
- img {
-   max-width: 100%;
- }
+  h2 {
+    color:$header-color;
+  }
+
+  p {
+    color:$base-font-color;
+  }
+  img {
+    max-width: 100%;
+  }
 }
 
-.multipurpose{
-  height: 120px;
+.multipurpose {
   background: linear-gradient( to right, #221c1a, #382820, #493125);
-  text-align: center;
- padding-top:30px;
+  padding-top:30px;
+  padding-bottom:30px;
 
- h3::nth-child(1) {
-   color: #c7b299;
- }
+  h3 {
+    font-size: 30px;
+    color: $header-color;
+  }
+  p {
+    font-size: 16px;
+    color:$base-font-color;
+  }
+  
+  h3::nth-child(1) {
+    color: #c7b299;
+  }
 }
