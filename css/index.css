@@ -93,13 +93,16 @@ h1, h2, h3, h4, h5, h6 {
 .wax-ideas {
   background: #fbfaf8;
   text-align: center;
-  padding-top: 50px;
+  padding-top: 80px;
 }
 .wax-ideas h2 {
   color: #555555;
 }
 .wax-ideas p {
   color: #8c8c8c;
+}
+.wax-ideas img {
+  max-width: 100%;
 }
 
 .multipurpose {

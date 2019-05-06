@@ -1,14 +1,17 @@
 .wax-ideas{
   background: #fbfaf8;
   text-align: center;
-  padding-top:50px;
+  padding-top:80px;
   
   h2{
   color:$header-color;
 }
 p{
   color:$base-font-color;
-}
+ }
+ img {
+   max-width: 100%;
+ }
 }
 
 .multipurpose{
