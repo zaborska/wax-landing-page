@@ -5,10 +5,12 @@
   
   h2 {
     color:$header-color;
+    font-size: 30px;
   }
 
   p {
     color:$base-font-color;
+    font-size: 16px;
   }
   img {
     max-width: 100%;
@@ -21,15 +23,16 @@
   padding-bottom:30px;
 
   h3 {
-    font-size: 30px;
-    color: $header-color;
+    font-size: 28px;
+    color: #ffffff;
   }
   p {
-    font-size: 16px;
-    color:$base-font-color;
+    font-size: 18px;
+    color:$multipurpose;
   }
-  
-  h3::nth-child(1) {
-    color: #c7b299;
+
+  span {
+    color: $header-hover-color;
+
   }
 }
