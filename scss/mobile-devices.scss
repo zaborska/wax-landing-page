@@ -1,9 +1,29 @@
 .mobile-devices {
 
+.mobile {
+padding-top: 80px;
+  }
+
+.mobile-devices-content { 
+padding-top: 180px;
+
   h2 {
     font-family: 30px;   
+    padding-bottom: 30px;
+    
   } 
   ul {
     list-style-image: url(../img/icons/li.png);
+    } 
+  li { 
+      padding-bottom: 10px;
+    }
+  p {
+    color: $base-font-color;
+    font-size: 16px;
+    padding-bottom: 30px;
+
+    }
   }
+  
 }

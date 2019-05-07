@@ -124,8 +124,26 @@ h1, h2, h3, h4, h5, h6 {
   color: #c7b299;
 }
 
-.mobile-devices h2 {
-  color: #555555;
+.mobile-devices .mobile {
+  padding-top: 80px;
+}
+.mobile-devices .mobile-devices-content {
+  padding-top: 180px;
+}
+.mobile-devices .mobile-devices-content h2 {
+  font-family: 30px;
+  padding-bottom: 30px;
+}
+.mobile-devices .mobile-devices-content ul {
+  list-style-image: url(../img/icons/li.png);
+}
+.mobile-devices .mobile-devices-content li {
+  padding-bottom: 10px;
+}
+.mobile-devices .mobile-devices-content p {
+  color: #8c8c8c;
+  font-size: 16px;
+  padding-bottom: 30px;
 }
 
 /*# sourceMappingURL=index.css.map */
