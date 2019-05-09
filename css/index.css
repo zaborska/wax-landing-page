@@ -146,4 +146,43 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 30px;
 }
 
+footer {
+  background: linear-gradient(to right, #221c1a, #382820, #493125);
+  padding: 20px 0 20px 0;
+}
+
+@media (max-width:700px) {
+  .h3 {
+    font-size: 15px;
+  }
+  .h2{
+    font-size: 25px;
+  }
+  #logo {
+    display: block;
+    height: auto; 
+    text-align: center;
+  }
+
+  .d-flex .list-inline {
+    margin-left: 80px;
+  } 
+  }
+@media (max-width:900px) {
+  .h3 {
+    font-size: 15px;
+  }
+  .h2{
+    font-size: 25px;
+  }
+  #logo {
+    display: block;
+    height: auto; 
+    text-align: center;
+  }
+
+  .d-flex .list-inline {
+    margin-left: 80px;
+  } 
+  }
 /*# sourceMappingURL=index.css.map */
