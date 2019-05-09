@@ -5,7 +5,12 @@ body {
   color: #8c8c8c;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: "Raleway", sans-serif;
   color: #555555;
 }
@@ -42,6 +47,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .header-img nav ul {
   margin: 0;
+  margin-left: 30px;
 }
 .header-img nav a {
   color: #ffffff;
@@ -55,7 +61,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 150px;
   top: 30%;
 }
-.header-img .slider-wrapper h1, .header-img .slider-wrapper h2, .header-img .slider-wrapper p {
+.header-img .slider-wrapper h1,
+.header-img .slider-wrapper h2,
+.header-img .slider-wrapper p {
   color: #ffffff;
 }
 
@@ -151,38 +159,39 @@ footer {
   padding: 20px 0 20px 0;
 }
 
-@media (max-width:700px) {
+@media (max-width: 700px) {
   .h3 {
     font-size: 15px;
   }
-  .h2{
+
+  .h2 {
     font-size: 25px;
   }
+
   #logo {
     display: block;
-    height: auto; 
+    height: auto;
     text-align: center;
   }
-
-  .d-flex .list-inline {
-    margin-left: 80px;
-  } 
-  }
-@media (max-width:900px) {
+}
+@media (max-width: 900px) {
   .h3 {
     font-size: 15px;
   }
-  .h2{
+
+  .h2 {
     font-size: 25px;
   }
+
   #logo {
     display: block;
-    height: auto; 
+    height: auto;
     text-align: center;
   }
 
-  .d-flex .list-inline {
-    margin-left: 80px;
-  } 
+  .mobile-devices {
+    flex-direction: column-reverse;
   }
+}
+
 /*# sourceMappingURL=index.css.map */

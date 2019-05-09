@@ -1,15 +1,15 @@
-.wax-ideas{
+.wax-ideas {
   background: #fbfaf8;
   text-align: center;
-  padding-top:80px;
-  
+  padding-top: 80px;
+
   h2 {
-    color:$header-color;
+    color: $header-color;
     font-size: 30px;
   }
 
   p {
-    color:$base-font-color;
+    color: $base-font-color;
     font-size: 16px;
   }
   img {
@@ -18,9 +18,9 @@
 }
 
 .multipurpose {
-  background: linear-gradient( to right, #221c1a, #382820, #493125);
-  padding-top:30px;
-  padding-bottom:30px;
+  background: linear-gradient(to right, #221c1a, #382820, #493125);
+  padding-top: 30px;
+  padding-bottom: 30px;
 
   h3 {
     font-size: 28px;
@@ -28,11 +28,10 @@
   }
   p {
     font-size: 18px;
-    color:$multipurpose;
+    color: $multipurpose;
   }
 
   span {
     color: $header-hover-color;
-
   }
 }

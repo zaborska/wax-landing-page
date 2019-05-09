@@ -1,13 +1,53 @@
-@import 'variables.scss';
-@import 'common.scss';
+@import "variables.scss";
+@import "common.scss";
 
-@import 'header.scss';
+@import "header.scss";
 
-@import 'service.scss';
+@import "service.scss";
 
-@import 'wax-ideas.scss';
+@import "wax-ideas.scss";
 
-@import 'mobile-devices.scss';
+@import "mobile-devices.scss";
 
-@import 'footer.scss';
+@import "footer.scss";
 
+// media queries
+
+@media (max-width: 700px) {
+  .h3 {
+    font-size: 15px;
+  }
+  .h2 {
+    font-size: 25px;
+  }
+  #logo {
+    display: block;
+    height: auto;
+    text-align: center;
+  }
+
+  // .d-flex .list-inline {
+  //   margin-left: 80px;
+  // }
+}
+@media (max-width: 900px) {
+  .h3 {
+    font-size: 15px;
+  }
+  .h2 {
+    font-size: 25px;
+  }
+  #logo {
+    display: block;
+    height: auto;
+    text-align: center;
+  }
+
+  .mobile-devices {
+    flex-direction: column-reverse;
+  }
+
+  // .d-flex .list-inline {
+  //   margin-left: 80px;
+  // }
+}

@@ -1,28 +1,27 @@
-.services{
+.services {
   padding: 80px 0 80px 0;
   .service {
     text-align: center;
     cursor: pointer;
 
-    &:hover{
-      h3{
-        color:$header-hover-color;
+    &:hover {
+      h3 {
+        color: $header-hover-color;
       }
-      .service-border{
+      .service-border {
         border-color: $header-hover-color;
       }
     }
 
-    img{
+    img {
       margin-bottom: 20px;
       height: 40px;
     }
 
-    h3{
+    h3 {
       font-size: 22px;
       font-family: $font-raleway;
     }
-
 
     p {
       font-family: $font-montserrat;
@@ -33,6 +32,5 @@
       width: 70px;
       margin: auto;
     }
-    
   }
 }

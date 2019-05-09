@@ -1,17 +1,22 @@
 body {
   font-family: $font-montserrat;
   font-size: 16px;
-  color:$base-font-color;
+  color: $base-font-color;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-family: $font-raleway;
   color: $header-color;
 }
 
-.btn.btn-primary{
+.btn.btn-primary {
   background-color: $btn-primary;
-  border:none;
+  border: none;
   border-bottom: 3px solid #736357;
   font-family: $font-raleway;
   font-weight: bold;
